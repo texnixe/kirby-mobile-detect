@@ -1,5 +1,5 @@
 {
-  "name": "Mobile Detect for Kirby",
+  "name": "kirby-mobile-detect",
   "description": "Mobile Detect implementation for Kirby CMS 2.0",
   "author": "Sonja Broda <sonja@texniq.de>",
   "license": "MIT",
