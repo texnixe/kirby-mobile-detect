@@ -56,6 +56,16 @@ if (detect()->isTablet()) {
     // Your code here.
 }
 ```
+
+#### Only show code on desktop or tablet device
+
+```
+<?php
+if(!detect()->isMobile() || detect()->isTablet()) {
+  //code that will only be shown on desktop or tablet
+}
+
+
 #### Check for iPhone
 ```
 <?php
