@@ -62,11 +62,12 @@ if (detect()->isTablet()) {
 ```
 <?php
 if(!detect()->isMobile() || detect()->isTablet()) {
-  //code that will only be shown on desktop or tablet
+    //code that will only be shown on desktop or tablet
 }
-
+```
 
 #### Check for iPhone
+
 ```
 <?php
 if (detect()->isIphone()) {
@@ -78,7 +79,7 @@ if (detect()->isIphone()) {
 
 ```
 <?php
- echo detect()->getUserAgent();
+    echo detect()->getUserAgent();
 ```
 
 For more information, see the [project's repo](https://github.com/serbanghita/Mobile-Detect), or check out the [demo for a list of available methods](http://demo.mobiledetect.net).
